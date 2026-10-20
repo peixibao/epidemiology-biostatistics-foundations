@@ -1,6 +1,6 @@
 # Current Course State
 
-**Canonical checkpoint · 2026-10-21 (corrected after learner feedback)**  
+**Canonical checkpoint · 2026-10-21 (after formal 1.1A teaching)**  
 **Course:** Foundations of Epidemiology & Biostatistics  
 **Repository:** peixibao/epidemiology-biostatistics-foundations (Public)
 
@@ -8,22 +8,29 @@
 | --- | --- |
 | Active chapter | 01 — Research Questions & Study Designs |
 | Active lesson | 1.1 — Understanding Research Questions |
-| **Current / next teaching block** | **1.1A — From a Research Topic to a Research Question** |
-| **Formal learning status** | **Not started — begin 1.1A from the beginning** |
-| Lesson status | **Not completed** |
+| Last formally taught block | **1.1A — From a Research Topic to a Research Question** |
+| Block status | **Taught — pending learner review** |
+| Full lesson status | **In progress; not completed** |
+| Next block, conditional on learner readiness | **1.1B — Four Common Research Aims** |
 | Vlog script | Not started |
 
-## Correction: previously displayed content was not formal course progress
-- A short introduction labeled **1.1A** was given while setting up the protocol and repository. The learner **did not consider that formal class to have started**.
-- A response labeled **1.1B** was mistakenly delivered on the assumption that 1.1A had been completed. The learner explicitly challenged this sequence.
-- Both pieces are preserved in `lessons/ch01/lesson-1.1.md` as **preliminary drafts/early previews**, NOT taught/completed/approved course blocks.
-- No mastery, confirmation, completion, or formal advancement is claimed.
+## 1.1A material formally taught
+- Definitions and relationships: research **topic**, **question**, **objective**, and optional **hypothesis**.
+- Components of an example associational question: population, exposure, outcome, research aim; exposure does not imply toxicity or causation.
+- Descriptive questions do **not** always require exposure variables.
+- Research question guides data needs, quantity of interest, evidence/design options; constraints and assumptions still matter.
+- Varied generic illustrations: PM2.5 and childhood asthma; anemia prevalence in prenatal clinics.
 
-## Exact next action
-**Start Lesson 1.1A afresh, one small, conceptually complete block at a time.** Invite questions; advance to 1.1B only following discussion and the learner's explicit readiness. After formal teaching, update this state and the active lesson file, then verify the remote commit.
+## Awaiting learner review
+- **1.1A has been formally delivered**, but learner understanding/approval has **not** been confirmed.
+- **Do not begin 1.1B until questions are answered and learner signals readiness.**
+- A previous, prematurely displayed 1.1B preview remains in the lesson working file, but is **not** formal progress.
 
-## Recovery
-Before any new session, read `COURSE_PROTOCOL.md`, `SYLLABUS.md`, this state file, and `lessons/ch01/lesson-1.1.md`. The learner-corrected state takes priority over earlier notes or conversation-based inference.
+## Recovery instructions
+1. Read `COURSE_PROTOCOL.md`, `SYLLABUS.md`, this state and `lessons/ch01/lesson-1.1.md`.
+2. Resume discussion/questions on 1.1A; after learner readiness, formally teach 1.1B.
+3. Preserve scope boundaries and update GitHub checkpoints after substantive blocks.
+4. Do not mark Lesson 1.1 completed until 1.1A–D and lesson-level review are finished and confirmed.
 
-## Numbering history
-An older unrelated PDF called population/sampling “Lesson 1.2”; this syllabus puts study designs at Lesson 1.2 and population/sampling in Chapter 02.
+## Numbering note
+An older independent PDF used “Lesson 1.2” for sampling. In the current syllabus, Lesson 1.2 is Study Designs, and Chapter 02 is Populations & Sampling.
