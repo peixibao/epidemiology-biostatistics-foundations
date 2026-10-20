@@ -1,5 +1,11 @@
 # Change Log
 
+## 2026-10-21 — Lesson 1.1A formally taught
+- Delivered the first official lesson block from the learner-confirmed starting point.
+- Added full working note: topic vs question; population/exposure/outcome/aim; objective vs optional hypothesis; general clinical/public-health examples and limits.
+- Block 1.1A is **taught, pending learner review**, not completed; 1.1B remains a draft preview only.
+- Synchronized current state, README and syllabus without asserting mastery.
+
 ## 2026-10-21 — Course progress corrected after learner feedback
 - Restored the authoritative checkpoint to **Lesson 1.1A — Not Started**, following the learner's explicit clarification.
 - Recategorized previously delivered 1.1A and out-of-order 1.1B content as **preliminary previews**, not completed/taught blocks.
