@@ -19,7 +19,7 @@ Many undergraduate students can recognize the terms *cohort study*, *confidence 
 
 | Chapter | Topic | Status |
 |:--|:--|:--|
-| **01** | **Research Questions & Study Designs** | 🟡 In progress |
+| **01** | **Research Questions & Study Designs** | Ready to begin · Lesson 1.1A |
 | 02 | Populations & Sampling | Not started |
 | 03 | Variables, Measurement & Data Structure | Not started |
 | 04 | Descriptive Epidemiology, Statistics & Distributions | Not started |
@@ -36,9 +36,9 @@ The complete **subtopic inventory**, lesson numbering, and prerequisite structur
 **Chapter 01 → Lesson 1.1 → Block 1.1A**
 
 - **Lesson:** [1.1 — Understanding Research Questions](lessons/ch01/lesson-1.1.md)
-- **Already taught:** From a Research Topic to a Research Question
-- **Current status:** **Taught — pending learner review**; not yet marked complete
-- **Next planned block:** **1.1B — Descriptive, Associational, Causal & Predictive Research Aims**
+- **Formal status:** **Not started**; the learner requested a true start from Block 1.1A.
+- **Earlier content:** Blocks 1.1A/1.1B have preliminary preview drafts; these are **not credited as course progress**.
+- **Next teaching block:** **1.1A — From a Research Topic to a Research Question**.
 
 For the authoritative, latest checkpoint, see **[COURSE_STATE.md](COURSE_STATE.md)**. This README offers an overview; detailed progress is recorded there.
 
