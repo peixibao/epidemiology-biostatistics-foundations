@@ -1,8 +1,10 @@
 # Lesson 1.1 — Understanding Research Questions
 
 **Chapter:** 01 · Research Questions & Study Designs  
-**Status:** In progress; Blocks 1.1A and 1.1B taught — **awaiting learner review**  
+**Status:** Formal instruction **not started**; begin from **Block 1.1A**. Earlier content is an unapproved preliminary preview.  
 **Publication status:** Working educational notes, not yet audited and approved as a completed lesson.
+
+**Teaching-order correction (2026-10-21):** The learner clarified that formal 1.1A had not begun. Both blocks below are retained as previews, not course completion. **Next action: start 1.1A from the beginning.**
 
 ## Planned objectives
 By the end of Lesson 1.1, the learner should be able to:
@@ -12,7 +14,7 @@ By the end of Lesson 1.1, the learner should be able to:
 4. Explain why the research aim drives evidence needs and methodological decisions.
 
 ## Block 1.1A — From a Research Topic to a Research Question
-**Status:** Taught — learner review pending.
+**Status:** Preliminary preview written during course setup; **not counted as taught**.
 
 A **research topic** is a broad domain of interest, e.g. *sleep and cardiovascular health*.
 
@@ -33,7 +35,7 @@ The elements depend on the aim: a descriptive question about disease frequency m
 **Scope boundary:** Formal causal estimands, sampling designs, inferential uncertainty and specific model assumptions belong to subsequent lessons. They are not prematurely treated as completed here.
 
 ## Block 1.1B — Four Common Research Aims
-**Status:** Taught — learner review pending.
+**Status:** Prematurely delivered preview, **out of sequence; not counted as taught**.
 
 ### Learning objective
 Distinguish descriptive, associational, causal and predictive questions by **what kind of knowledge each seeks**, rather than by a presumed study design or statistical test. This is a **useful, non-exhaustive and non-mutually-exclusive teaching taxonomy**.
@@ -63,17 +65,17 @@ Distinguish descriptive, associational, causal and predictive questions by **wha
 - Causal estimands and formal prediction metrics are introduced here in words only; detailed definitions/assumptions belong to Chapters 5–8.
 
 ### Learner review
-The teaching has been delivered, but **the student has not yet confirmed understanding of 1.1B**. Do not auto-advance to 1.1C.
+The preliminary 1.1B text was delivered out of sequence. The learner has explicitly requested the class begin at 1.1A. It is retained only as a draft for later review; no learning progress is credited for 1.1B.
 
 ## Planned remaining blocks
-- [x] **1.1B** Four common aims: descriptive / associational / causal / predictive — **taught, pending review**
+- [ ] **1.1B** Four common aims: descriptive / associational / causal / predictive — **future formal lesson; preliminary preview exists**
 - [ ] **1.1C** Framing questions for feasibility and clarity, including PICO/PECO when relevant
 - [ ] **1.1D** Translating question into needed evidence, quantity of interest and design choice (conceptual overview)
 
 ## Completion checklist
-- [x] 1.1A delivered
+- [ ] 1.1A formally taught (introductory preview only)
 - [ ] Learner confirmation and questions resolved for 1.1A
-- [x] 1.1B delivered (review pending)
+- [ ] 1.1B formally taught (out-of-sequence preview only)
 - [ ] 1.1C–D delivered/reviewed
 - [ ] Full lesson checked for logical completeness, terminology, assumptions, exceptions and general applicability
 - [ ] Learner confirms completed
