@@ -8,7 +8,7 @@ Crosscutting topics (ethics, bias, missing data and generalizability) appear whe
 
 ## 01 · Research Questions & Study Designs
 ### 1.1 Understanding Research Questions
-- **1.1A** Topic vs research question; population, exposure (when relevant), outcome, aim — **formal lesson not started; begin here**
+- **1.1A** Topic vs research question; population, exposure (when relevant), outcome, aim — **formally taught; learner review pending**
 - **1.1B** Four common research aims: descriptive, associational, causal, predictive (not an exhaustive or mutually exclusive taxonomy)
 - **1.1C** Focused/answerable/feasible questions; PICO/PECO when appropriate; population, timeframe and operationalization
 - **1.1D** Bridge from research question to quantity of interest, evidence, and design
