@@ -1,10 +1,10 @@
 # Lesson 1.1 — Understanding Research Questions
 
 **Chapter:** 01 · Research Questions & Study Designs  
-**Status:** Formal instruction **not started**; begin from **Block 1.1A**. Earlier content is an unapproved preliminary preview.  
+**Status:** **Block 1.1A formally taught — pending learner review**. Lesson 1.1 remains in progress; the earlier 1.1B content is an out-of-sequence preview, not approved coursework.  
 **Publication status:** Working educational notes, not yet audited and approved as a completed lesson.
 
-**Teaching-order correction (2026-10-21):** The learner clarified that formal 1.1A had not begun. Both blocks below are retained as previews, not course completion. **Next action: start 1.1A from the beginning.**
+**Teaching-order correction (2026-10-21):** After an incorrect jump to 1.1B, the learner requested a real beginning at 1.1A. **Block 1.1A has now been formally delivered.** Block 1.1B is still only a premature preview; it does not count as reviewed or formally taught.
 
 ## Planned objectives
 By the end of Lesson 1.1, the learner should be able to:
@@ -14,25 +14,47 @@ By the end of Lesson 1.1, the learner should be able to:
 4. Explain why the research aim drives evidence needs and methodological decisions.
 
 ## Block 1.1A — From a Research Topic to a Research Question
-**Status:** Preliminary preview written during course setup; **not counted as taught**.
+**Status:** **Formally taught on 2026-10-21 — awaiting learner review**.
 
-A **research topic** is a broad domain of interest, e.g. *sleep and cardiovascular health*.
+### Scope and learning objective
+Understand how a broad **research topic** becomes a focused **research question**, identify the relevant components when applicable, and distinguish a topic, question, objective and possible hypothesis. Full research-aim taxonomy, PICO/PECO and detailed methods remain in subsequent blocks.
 
-A **research question** is a focused, answerable question specifying the knowledge a study aims to obtain.
+### Definitions
+- **Research topic（研究主题）:** a broad area of scientific interest; it identifies a subject but can contain many possible specific questions.
+- **Research question（研究问题）:** a focused, answerable question specifying what scientific knowledge a study seeks to obtain or establish.
+- **Research objective（研究目标）:** a statement of the task a study intends to accomplish, often expressed with an infinitive such as *to estimate*, *to examine* or *to compare*.
+- **Research hypothesis（研究假设）:** a proposed answer or expected relationship, potentially directional, that can be examined against evidence. Some descriptive or exploratory studies do not require a formal directional hypothesis.
 
-Example: *Among working adults, is habitual sleep duration associated with systolic blood pressure?*
+### General illustration
+**Topic:** Air pollution and respiratory health.
 
-In this example:
-- Population: working adults
-- Exposure: habitual sleep duration
-- Outcome: systolic blood pressure
-- Research aim: investigation of an association
+**Research question:** *Among children aged 6–12 living in City A, is long-term exposure to PM2.5 associated with asthma exacerbations?*
 
-The elements depend on the aim: a descriptive question about disease frequency might not include an exposure.
+| Component | What it specifies | Illustration |
+| --- | --- | --- |
+| **Population（研究总体）** | Who or what we seek to understand | Children aged 6–12 in City A |
+| **Exposure（暴露）** | Factor or characteristic of interest | Long-term PM2.5 exposure |
+| **Outcome（结局）** | Health-related endpoint | Asthma exacerbations |
+| **Research aim（研究目的）** | Knowledge sought | Investigate an association |
 
-**Why it matters:** One general topic can generate several different research questions, leading to different quantities of interest, study designs and statistical choices. Scientific objectives guide both epidemiologic and statistical reasoning.
+An exposure in epidemiology is **not limited to toxic agents**: behavior, treatment, environmental conditions and other attributes may be considered exposures depending on the question. Identifying an exposure does not itself imply causation.
 
-**Scope boundary:** Formal causal estimands, sampling designs, inferential uncertainty and specific model assumptions belong to subsequent lessons. They are not prematurely treated as completed here.
+The four illustrated components are **context-dependent, not a mandatory template**. For example, *What was the prevalence of anemia among pregnant patients attending public antenatal clinics in City B during 2025?* is a descriptive frequency question with a population, health outcome and timeframe, but no specified exposure.
+
+### Why the distinction matters
+One broad topic can yield questions that demand different kinds of evidence. Estimating asthma frequency requires a defined population and valid disease ascertainment; examining PM2.5–exacerbation association requires meaningful exposure and outcome information and an analysis appropriate to the relationship. Hence the question helps specify **data needs, the quantity of interest and plausible research designs**. Ethical/practical constraints, available data and analytical assumptions still influence design selection.
+
+### Topic vs question vs objective vs hypothesis
+- Topic: *Air pollution and respiratory health*.
+- Question: *Is long-term PM2.5 exposure associated with asthma exacerbations in children?*
+- Objective: *To examine the association between long-term PM2.5 exposure and asthma exacerbations among children*.
+- Optional hypothesis: *Higher long-term PM2.5 exposure is associated with more asthma exacerbations*.
+
+### Scope boundary
+The four common research aims are formally taught in **1.1B**; framing and feasibility including **PICO/PECO** in **1.1C**; the bridge to quantities of interest, evidence and design in **1.1D**. This block does not claim these future topics have been covered.
+
+### Learner review
+Teaching content is delivered. **Learner understanding has not yet been confirmed; formal progression to 1.1B is on hold.**
 
 ## Block 1.1B — Four Common Research Aims
 **Status:** Prematurely delivered preview, **out of sequence; not counted as taught**.
@@ -73,7 +95,7 @@ The preliminary 1.1B text was delivered out of sequence. The learner has explici
 - [ ] **1.1D** Translating question into needed evidence, quantity of interest and design choice (conceptual overview)
 
 ## Completion checklist
-- [ ] 1.1A formally taught (introductory preview only)
+- [x] 1.1A formally taught (learner review pending)
 - [ ] Learner confirmation and questions resolved for 1.1A
 - [ ] 1.1B formally taught (out-of-sequence preview only)
 - [ ] 1.1C–D delivered/reviewed
