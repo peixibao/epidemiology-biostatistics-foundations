@@ -1,10 +1,10 @@
 # Lesson 1.1 — Understanding Research Questions
 
 **Chapter:** 01 · Research Questions & Study Designs  
-**Status:** **Block 1.1A formally taught — pending learner review**. Lesson 1.1 remains in progress; the earlier 1.1B content is an out-of-sequence preview, not approved coursework.  
+**Status:** **1.1A confirmed understood; 1.1B formally taught — pending learner review.** Lesson 1.1 remains in progress.  
 **Publication status:** Working educational notes, not yet audited and approved as a completed lesson.
 
-**Teaching-order correction (2026-10-21):** After an incorrect jump to 1.1B, the learner requested a real beginning at 1.1A. **Block 1.1A has now been formally delivered.** Block 1.1B is still only a premature preview; it does not count as reviewed or formally taught.
+**Progress update (2026-10-28):** The learner explicitly confirmed understanding of formal 1.1A and asked to move on. The instructor then formally taught 1.1B. Earlier preview status is superseded; the original history remains in Git commits. 1.1B awaits learner discussion/confirmation.
 
 ## Planned objectives
 By the end of Lesson 1.1, the learner should be able to:
@@ -14,7 +14,7 @@ By the end of Lesson 1.1, the learner should be able to:
 4. Explain why the research aim drives evidence needs and methodological decisions.
 
 ## Block 1.1A — From a Research Topic to a Research Question
-**Status:** **Formally taught on 2026-10-21 — awaiting learner review**.
+**Status:** **Formally taught 2026-10-21; learner confirmed understanding 2026-10-28.**
 
 ### Scope and learning objective
 Understand how a broad **research topic** becomes a focused **research question**, identify the relevant components when applicable, and distinguish a topic, question, objective and possible hypothesis. Full research-aim taxonomy, PICO/PECO and detailed methods remain in subsequent blocks.
@@ -54,50 +54,53 @@ One broad topic can yield questions that demand different kinds of evidence. Est
 The four common research aims are formally taught in **1.1B**; framing and feasibility including **PICO/PECO** in **1.1C**; the bridge to quantities of interest, evidence and design in **1.1D**. This block does not claim these future topics have been covered.
 
 ### Learner review
-Teaching content is delivered. **Learner understanding has not yet been confirmed; formal progression to 1.1B is on hold.**
+**Learner confirmed understanding and requested the next block on 2026-10-28.**
 
 ## Block 1.1B — Four Common Research Aims
-**Status:** Prematurely delivered preview, **out of sequence; not counted as taught**.
+**Status:** **Formally taught 2026-10-28; awaiting learner review.**
 
-### Learning objective
-Distinguish descriptive, associational, causal and predictive questions by **what kind of knowledge each seeks**, rather than by a presumed study design or statistical test. This is a **useful, non-exhaustive and non-mutually-exclusive teaching taxonomy**.
+### Learning objective and taxonomy scope
+Recognize what kind of scientific knowledge an epidemiological question seeks and distinguish **descriptive, associational, causal, and predictive aims**. These are **four common pedagogical categories**, not an exhaustive or mutually exclusive taxonomy. Their classification concerns scientific purposes, not specific study designs or statistical tests.
 
-**Common research topic:** Physical activity and hypertension.
+**Common research topic:** Physical activity and cardiovascular health.
 
-| Aim | Precise purpose | Example question | What a satisfactory answer emphasizes |
+| Research aim | Primary question | Example | Core task |
 | --- | --- | --- | --- |
-| **Descriptive**（描述性） | Characterize frequency, distribution or attributes of a health phenomenon. | What is the prevalence of hypertension in adults aged 30–60 in a defined district? | Well-defined population, meaningful denominator, valid measurement and interpretable distribution or frequency estimate. |
-| **Associational**（关联性） | Estimate a statistical relationship between variables. | Is physical activity associated with hypertension prevalence? | An appropriately specified association measure and cautious interpretation of differences. |
-| **Causal**（因果性） | Estimate how an outcome would differ under alternative exposure or intervention conditions. | Would a structured exercise program reduce systolic blood pressure compared with usual care? | A clearly defined intervention/exposure contrast, valid study design and defensible causal assumptions. |
-| **Predictive**（预测性） | Estimate present unknown or future outcomes using available information. | Can age, BMI and activity predict development of hypertension within one year? | Predictive accuracy and reliability, preferably evaluated on new data. |
+| **Descriptive**（描述性） | What is happening and how common is it? | What proportion of adults meet physical activity recommendations? | Estimate or characterize frequency, distribution, attributes in a defined group. |
+| **Associational**（关联性） | How are variables related? | Is physical activity associated with blood pressure? | Quantify observed statistical relationships, with attention to definition and confounding. |
+| **Causal**（因果性） | What would change under an intervention/exposure contrast? | Would assigning structured exercise lower blood pressure compared with usual care? | Estimate effects of well-defined alternative conditions under suitable designs and assumptions. |
+| **Predictive**（预测性） | What unknown or future outcome can we predict? | Can physical activity, age and BMI predict hypertension within five years? | Produce and evaluate predictions, especially on new data. |
 
-### The underlying reasoning
-**Descriptive:** Who has what characteristics, where, when and how commonly? Such a question can stand without an exposure of interest.
+### Explanations and statistical implications
+- **Descriptive:** The quantity of interest might be prevalence or a proportion. Proper population definition, selection, denominator, and measurement are necessary for credible population descriptions.
+- **Associational:** A statistical relationship (e.g. lower blood pressure among more active participants) does not automatically identify the effect of *changing* activity. Age and other factors may influence both.
+- **Causal:** The aim is a comparison of outcomes under different intervention/exposure conditions, often described with **potential outcomes（潜在结局）**. The same participant generally cannot simultaneously be observed under both alternatives in an identical situation. Both randomized and observational designs can inform causal effects, but the assumptions and resulting strength of claims differ.
+- **Predictive:** Focus on predictive performance and validity beyond development data, including whether discrimination and predicted probabilities are useful. Strong predictors need not be causes or suitable intervention targets.
 
-**Associational:** Are variables related in observed data, and by how much? Confounding and other biases may complicate causal interpretation; observed association alone is not evidence that changing X will change Y.
+### Discriminating example: a lighter and lung cancer
+- Associational: Are lighter carriers more likely to have lung cancer?
+- Predictive: Does lighter ownership add information for predicting lung cancer risk?
+- Causal: Would giving a nonsmoker a lighter, without changing smoking behavior, alter their cancer risk?
+A variable associated with smoking can be statistically associated with and potentially predict lung cancer without necessarily having a causal effect when intervened on.
 
-**Causal:** How would outcomes differ for the same target population under different interventions/exposures? The potential-outcomes contrast motivates causal inference, but no individual can usually be observed in the same circumstance under both alternatives simultaneously. Identification assumptions and suitable designs are treated more fully in Chapter 8.
-
-**Predictive:** Given information available at a particular point, can we estimate an outcome accurately? An effective predictor need not be an intervention target or a cause. Validation and performance, including assessment in new data, are central.
-
-### Critical distinctions and scope
-- These **research aims** are conceptually distinct from **study designs** (e.g. cross-sectional/cohort/trial) and **statistical tools** (e.g. regression). A study can combine aims and a method can serve more than one aim.
-- An adjusted association is not automatically causal; a statistically significant association does not prove an effect of intervention.
-- Strong association is not equivalent to good out-of-sample prediction.
-- Causal estimands and formal prediction metrics are introduced here in words only; detailed definitions/assumptions belong to Chapters 5–8.
+### Distinctions and limits
+1. **Research aim ≠ study design ≠ statistical technique.** Regression can serve association analysis, causal estimation under stronger assumptions, and prediction. A cross-sectional or cohort study can contain several aims.
+2. **Association ≠ causation**, even after adjustment; **predictive usefulness ≠ causal actionability**.
+3. The four aims can overlap within the same paper. For example, descriptive summaries and a prediction model can coexist.
+4. This block introduces the purposes conceptually. Formal estimands, performance metrics, identification assumptions, and selection of designs/models are reserved for their mapped later lessons.
 
 ### Learner review
-The preliminary 1.1B text was delivered out of sequence. The learner has explicitly requested the class begin at 1.1A. It is retained only as a draft for later review; no learning progress is credited for 1.1B.
+**Teaching delivered; understanding and completion of 1.1B not yet confirmed.** Keep 1.1C on hold until learner questions are addressed and the learner signals readiness.
 
 ## Planned remaining blocks
-- [ ] **1.1B** Four common aims: descriptive / associational / causal / predictive — **future formal lesson; preliminary preview exists**
+- [x] **1.1B** Four common aims: descriptive / associational / causal / predictive — **formally taught; pending learner review**
 - [ ] **1.1C** Framing questions for feasibility and clarity, including PICO/PECO when relevant
 - [ ] **1.1D** Translating question into needed evidence, quantity of interest and design choice (conceptual overview)
 
 ## Completion checklist
 - [x] 1.1A formally taught (learner review pending)
-- [ ] Learner confirmation and questions resolved for 1.1A
-- [ ] 1.1B formally taught (out-of-sequence preview only)
+- [x] Learner confirmation and questions resolved for 1.1A
+- [x] 1.1B formally taught (learner review pending)
 - [ ] 1.1C–D delivered/reviewed
 - [ ] Full lesson checked for logical completeness, terminology, assumptions, exceptions and general applicability
 - [ ] Learner confirms completed
