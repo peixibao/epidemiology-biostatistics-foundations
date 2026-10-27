@@ -1,5 +1,11 @@
 # Change Log
 
+## 2026-10-28 — 1.1A confirmed; 1.1B formally taught
+- Learner confirmed understanding of Block 1.1A and requested the next block.
+- Completed teaching delivery for Block 1.1B, covering descriptive, associational, causal, and predictive research aims, with their distinctions and limitations.
+- Updated working lesson note, state, homepage and syllabus. **1.1B remains pending learner review**; full Lesson 1.1 is in progress.
+- Next block will be 1.1C only after learner readiness.
+
 ## 2026-10-21 — Lesson 1.1A formally taught
 - Delivered the first official lesson block from the learner-confirmed starting point.
 - Added full working note: topic vs question; population/exposure/outcome/aim; objective vs optional hypothesis; general clinical/public-health examples and limits.
