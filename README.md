@@ -33,12 +33,12 @@ The complete **subtopic inventory**, lesson numbering, and prerequisite structur
 
 ### Where we are now
 
-**Chapter 01 → Lesson 1.1 → Block 1.1A**
+**Chapter 01 → Lesson 1.1 → Block 1.1B**
 
 - **Lesson:** [1.1 — Understanding Research Questions](lessons/ch01/lesson-1.1.md)
-- **Formal status:** **1.1A taught — pending learner review**; this is not a completed lesson.
-- **Next planned block:** **1.1B — Four Common Research Aims**, only after learner readiness.
-- An earlier out-of-order **1.1B preview** remains a draft and is not credited as formal progress.
+- **Confirmed:** 1.1A understood (learner confirmed 2026-10-28).
+- **Formal status:** **1.1B taught — pending learner review**; full Lesson 1.1 is not yet completed.
+- **Next planned block:** **1.1C — Formulating Focused and Answerable Research Questions**, only after learner readiness.
 
 For the authoritative, latest checkpoint, see **[COURSE_STATE.md](COURSE_STATE.md)**. This README offers an overview; detailed progress is recorded there.
 
