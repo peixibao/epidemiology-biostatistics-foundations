@@ -10,8 +10,8 @@ Crosscutting topics (ethics, bias, missing data and generalizability) appear whe
 ### 1.1 Understanding Research Questions
 - **1.1A** Topic vs research question; population, exposure (when relevant), outcome, aim — **learner confirmed understanding 2026-10-28**
 - **1.1B** Four common research aims: descriptive, associational, causal, predictive (non-exhaustive, overlapping) — **delivered; revision needed after learner feedback**
-- **1.1C** Focused/answerable/feasible questions; PICO/PECO when appropriate; population, timeframe, operationalization and FINER — **taught, learner review pending**
-- **1.1D** Bridge from research question to quantity of interest, evidence, and design
+- **1.1C** Focused/answerable/feasible questions; PICO/PECO, time, operationalization and FINER — **delivered; learner elected to continue; no mastery claim**
+- **1.1D** Bridge from research question to estimand, estimator/estimate, evidence requirements and design — **formally taught; pending learner review**
 ### 1.2 Study Designs
 - Observational vs interventional; time and direction of observation; no false single-axis hierarchy
 - Descriptive designs: case reports/series, descriptive cross-sectional and ecological studies
