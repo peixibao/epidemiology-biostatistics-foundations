@@ -1,5 +1,10 @@
 # Change Log
 
+## 2026-10-30 — Block 1.1C taught; learner feedback on 1.1B recorded
+- Learner found 1.1B insufficiently substantive and explicitly requested the next block. **1.1B remains unreviewed and flagged for methodological-depth revision**, with no mastery assumed.
+- Formally delivered 1.1C: answerable questions, PICO/PECO and time, operational definitions, outcome ascertainment, FINER feasibility, causal wording and protocol pitfalls.
+- Lesson 1.1 remains in progress. 1.1C is taught, pending learner review; 1.1D remains planned.
+
 ## 2026-10-28 — 1.1A confirmed; 1.1B formally taught
 - Learner confirmed understanding of Block 1.1A and requested the next block.
 - Completed teaching delivery for Block 1.1B, covering descriptive, associational, causal, and predictive research aims, with their distinctions and limitations.
