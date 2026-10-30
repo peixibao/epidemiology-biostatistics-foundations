@@ -1,5 +1,11 @@
 # Change Log
 
+## 2026-10-30 — Block 1.1D formally taught; four-block delivery complete
+- Following the learner's request to proceed, formally taught estimand, estimator, estimate, descriptive/associational/causal/predictive target distinctions, and required evidence/design for gait-speed and fall-risk questions.
+- Applied an illustrative crude risk difference (0.12) and risk ratio (≈1.67), distinguished observational association from an intervention effect, and discussed baseline vs prospective ascertainment.
+- Updated active lesson, README, syllabus and course state. **1.1D pending learner review; full Lesson 1.1 is not completed.**
+- Carryover: address learner's 1.1B methodological-depth concern and audit lesson completeness; 1.1C was advanced by learner request without separate mastery confirmation.
+
 ## 2026-10-30 — Block 1.1C taught; learner feedback on 1.1B recorded
 - Learner found 1.1B insufficiently substantive and explicitly requested the next block. **1.1B remains unreviewed and flagged for methodological-depth revision**, with no mastery assumed.
 - Formally delivered 1.1C: answerable questions, PICO/PECO and time, operational definitions, outcome ascertainment, FINER feasibility, causal wording and protocol pitfalls.
