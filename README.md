@@ -19,7 +19,7 @@ Many undergraduate students can recognize the terms *cohort study*, *confidence 
 
 | Chapter | Topic | Status |
 |:--|:--|:--|
-| **01** | **Research Questions & Study Designs** | 🟡 In progress · Lesson 1.1C |
+| **01** | **Research Questions & Study Designs** | 🟡 In progress · Lesson 1.1D |
 | 02 | Populations & Sampling | Not started |
 | 03 | Variables, Measurement & Data Structure | Not started |
 | 04 | Descriptive Epidemiology, Statistics & Distributions | Not started |
@@ -33,14 +33,14 @@ The complete **subtopic inventory**, lesson numbering, and prerequisite structur
 
 ### Where we are now
 
-**Chapter 01 → Lesson 1.1 → Block 1.1C**
+**Chapter 01 → Lesson 1.1 → Block 1.1D**
 
 - **Lesson:** [1.1 — Understanding Research Questions](lessons/ch01/lesson-1.1.md)
-- **Confirmed:** 1.1A understood (learner confirmed 2026-10-28).
-- **Confirmed:** 1.1A understood.
-- **Feedback on 1.1B:** Delivered, but requires more methodological depth; learner chose to proceed before review.
-- **Current status:** **1.1C taught — pending learner review**; full Lesson 1.1 remains unfinished.
-- **Next planned block:** **1.1D — Linking Questions to Estimands, Evidence and Design**, after learner readiness.
+- **Confirmed:** 1.1A understood (2026-10-28).
+- **1.1B:** Delivered; learner requested greater methodological depth; revision and review remain open.
+- **1.1C:** Delivered; learner elected to continue without separate mastery confirmation.
+- **1.1D:** **Taught — pending learner review**.
+- **Full Lesson 1.1:** All four blocks delivered; not yet reviewed, audited, or marked completed. **Next:** address outstanding questions, improve 1.1B and perform lesson audit before Lesson 1.2.
 
 For the authoritative, latest checkpoint, see **[COURSE_STATE.md](COURSE_STATE.md)**. This README offers an overview; detailed progress is recorded there.
 
