@@ -1,6 +1,6 @@
 # Current Course State
 
-**Canonical checkpoint · 2026-10-30**  
+**Canonical checkpoint · 2026-10-30 (after teaching 1.1D)**  
 **Course:** Foundations of Epidemiology & Biostatistics  
 **Repository:** peixibao/epidemiology-biostatistics-foundations (Public)
 
@@ -8,32 +8,32 @@
 | --- | --- |
 | Active chapter | 01 — Research Questions & Study Designs |
 | Active lesson | 1.1 — Understanding Research Questions |
-| Last formally taught block | **1.1C — Formulating an Answerable Research Question** |
-| Block 1.1A | **Learner confirmed understanding (2026-10-28)** |
-| Block 1.1B | **Delivered; learner reported insufficient methodological depth and elected to move on. Revision needed, no mastery claimed.** |
-| Block 1.1C | **Taught — pending learner review** |
-| Full Lesson 1.1 | **In progress, not complete** |
-| Next planned block | **1.1D — Linking Questions to Estimands, Evidence, and Design** (only after learner readiness) |
-| Vlog script | Not started |
+| Last formally taught block | **1.1D — From Research Questions to Estimands, Evidence, and Study Design** |
+| 1.1A | **Learner confirmed understanding (2026-10-28)** |
+| 1.1B | **Delivered; learner criticized lack of depth; revision and review needed** |
+| 1.1C | **Delivered; learner chose to move ahead on 2026-10-30; no separate mastery confirmation** |
+| 1.1D | **Taught — pending learner review** |
+| Full Lesson 1.1 | **In progress; all four blocks delivered, NOT completed/audited** |
+| Next action | **Review 1.1D; remediate 1.1B depth gap and conduct lesson-level quality check** |
+| Vlog | Not started |
 
-## Learner feedback / quality actions
-- On 2026-10-30, learner criticized 1.1B as overly superficial and requested the next block directly. Do not mark 1.1B reviewed or mastered. **Flag for deeper methodological revision before closing the whole lesson.**
-- No scientific errors specifically identified in 1.1B; issue reported was inadequate conceptual/methodological depth and inefficient instructional value.
-- The learner expressly authorized progression to **1.1C**, which has now been taught. **Do not equate this progression with 1.1B approval.**
+## Current learner instruction and feedback
+- On 2026-10-30, learner said **“好的 下一个”** after 1.1C. This is explicit readiness to advance, but not explicit statement of mastery.
+- Earlier learner feedback found 1.1B superficial and insufficiently methodological. This issue remains open and must be meaningfully addressed before lesson completion.
+- Do not auto-start Lesson 1.2 just because 1.1D was delivered. Return to feedback/quality check and ask for learner readiness.
 
-## 1.1C taught scope (2026-10-30)
-- An answerable question specifies a meaningful population, exposure/intervention and comparison when applicable, outcome, relevant time horizon; inadequately defined terms are methodological gaps.
-- **PICO/PICOT** and **PECO/PECOT** as flexible framing frameworks, not a study-design rule and not suitable for every aim.
-- **Operationalization** of population, measurements, contrasts, outcomes and ascertainment; alternate outcome definitions answer different questions.
-- **FINER** (Feasible, Interesting, Novel, Ethical, Relevant): research-question appraisal heuristic, not numeric scoring.
-- Common failure modes: undefined exposure, unspecified outcome horizon, unsupported causal interpretation.
-- Worked examples: gait speed/falls in older adults, exercise/knee osteoarthritis, diabetes/sleep framing, air pollution, and an exercise on social media/anxiety.
+## What was taught in 1.1D
+- Population-level **estimand**, statistical **estimator**, and numerical **estimate** are distinct.
+- Precise target specification: population, outcome, exposure/intervention and comparison if relevant, time, summary measure; additional trial attributes can matter.
+- Example: gait-speed groups and 12-month fall risk, with illustrative RD = 0.12 (12 percentage points) and RR ≈ 1.67, interpreted as crude **association**, not a causal effect.
+- Descriptive, association, causal, and prediction aims target different quantities and require different evidence. The effect of a balance-training program differs from the observed contrast between slow and fast walkers.
+- Conceptual causal potential-outcomes contrast E[Y^1] − E[Y^0], with assignment-versus-adherence distinction.
+- Data adequacy: previous falls at baseline do not provide incidence during subsequent 12 months; follow-up and outcome ascertainment are needed. Attrition, death, and person-time can matter.
+- Coherent sequence: **research question → estimand → evidence requirements → study design/analysis**.
+- Lesson file: `lessons/ch01/lesson-1.1.md` (working note; not fully audited).
 
-## Completion / recovery instructions
-1. Read `COURSE_PROTOCOL.md`, `SYLLABUS.md`, this file, and `lessons/ch01/lesson-1.1.md`.
-2. Answer questions and obtain review of **1.1C**. Proceed to **1.1D** only after explicit learner readiness.
-3. **Before Lesson 1.1 is marked completed, repair and review 1.1B's depth complaint**, and audit all four blocks. Do not imply previous critique means confirmed mastery.
-4. Update the active lesson, state, and GitHub after next substantive teaching block; verify commits.
-
-## Numbering note
-A previous course labeled sampling “Lesson 1.2.” Under this revised curriculum Lesson 1.2 is Study Designs; sampling is Chapter 02.
+## Next-session recovery
+1. Read `COURSE_PROTOCOL.md`, `SYLLABUS.md`, `COURSE_STATE.md`, `lessons/ch01/lesson-1.1.md`.
+2. Allow substantive questions and learner review of 1.1D. Make the 1.1B treatment more methodologically useful, rather than restating definitions.
+3. Confirm that gaps have been addressed and conduct full completion audit before marking Lesson 1.1 complete.
+4. Then, with learner readiness, advance to **Lesson 1.2 — Study Designs**. Preserve accurate checkpoint labels and verify all GitHub writes.
