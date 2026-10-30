@@ -1,7 +1,7 @@
 # Lesson 1.1 — Understanding Research Questions
 
 **Chapter:** 01 · Research Questions & Study Designs  
-**Status:** **1.1A confirmed understood; 1.1B formally taught — pending learner review.** Lesson 1.1 remains in progress.  
+**Status:** **1.1A confirmed; 1.1B delivered but requires substantive revision; 1.1C taught, pending learner review.** Full Lesson 1.1 is in progress.  
 **Publication status:** Working educational notes, not yet audited and approved as a completed lesson.
 
 **Progress update (2026-10-28):** The learner explicitly confirmed understanding of formal 1.1A and asked to move on. The instructor then formally taught 1.1B. Earlier preview status is superseded; the original history remains in Git commits. 1.1B awaits learner discussion/confirmation.
@@ -90,18 +90,93 @@ A variable associated with smoking can be statistically associated with and pote
 4. This block introduces the purposes conceptually. Formal estimands, performance metrics, identification assumptions, and selection of designs/models are reserved for their mapped later lessons.
 
 ### Learner review
-**Teaching delivered; understanding and completion of 1.1B not yet confirmed.** Keep 1.1C on hold until learner questions are addressed and the learner signals readiness.
+**Learner feedback 2026-10-30:** This block was judged overly superficial. Learner requested immediate progression to 1.1C. **Understanding of 1.1B has not been confirmed; expand methodological detail and review before final lesson completion.**
+
+## Block 1.1C — Formulating an Answerable Research Question
+**Status:** **Formally taught 2026-10-30 — pending learner review.**
+
+### Objective
+Translate a broad scientific question into a question precise enough to guide selection of participants, measurement, comparison, data collection, and initial analytic planning. Evaluate whether a meaningful question can feasibly and ethically be addressed.
+
+### 1. Answerability requires defined components
+**Vague question:** *Does poor sleep increase the risk of disease?*
+
+The question leaves the **population**, the meaning of **poor sleep**, the specific **outcome**, and **outcome period** unresolved.
+
+**More focused example:** *Among adults aged 30–60 without diabetes at baseline, is habitual sleep duration below 6 hours (versus 7–8 hours) associated with the 5-year incidence of type 2 diabetes?*
+
+This defines important question-level components, although an operational protocol must still specify sleep measurement, case ascertainment, and covariate strategy.
+
+### 2. PICO, PECO, and the optional time element
+| Element | PICO | PECO |
+| --- | --- | --- |
+| P | Population or participants | Population or participants |
+| I / E | Intervention | Exposure |
+| C | Comparator or comparison | Comparator or comparison |
+| O | Outcome | Outcome |
+| T (optional) | Time horizon in PICOT | Time horizon in PECOT |
+
+**PICO question:** Among adults with knee osteoarthritis, does a **12-week supervised strengthening program**, versus **an educational booklet**, improve knee pain **at 12 weeks**? Intervention dose, comparator details, and pain scale still need protocol definitions.
+
+**PECO question:** Among community-dwelling adults aged 65+, is **baseline slow gait speed**, versus faster speed, associated with **≥1 fall** over the next **12 months**?
+
+PICO/PECO are flexible guides. They do not establish randomization, study design, causal identification, or whether a question is scientifically valuable. Some descriptive, diagnostic, qualitative or prediction questions need different organization.
+
+### 3. Operationalization (操作化定义)
+The gait-speed question requires explicit observable definitions:
+
+| Construct | Example protocol definition |
+| --- | --- |
+| Population | Community-dwelling people aged ≥65 at enrollment |
+| Gait speed | Usual-pace walking speed in m/s on a standardized course |
+| Slow exposure category | Speed <0.8 m/s at baseline |
+| Comparator | Speed ≥0.8 m/s |
+| Fall | Person unintentionally comes to rest on ground/floor/lower level |
+| Observation window | 12 months after baseline |
+| Outcome | Experiencing at least one fall during that window, identified through regular participant reports |
+
+The 0.8-m/s cutoff is an illustrative, prespecified threshold that must be justified. Alternative ascertainment or definitions affect the interpretation. **Any fall** differs from **fall-related hospital admission**: the latter only captures a subset of events.
+
+**Operationalization** turns abstract attributes into measurable indicators, classification rules, and recording processes. A polished sentence is not enough to establish valid measurement.
+
+### 4. FINER — planning heuristic
+| Criterion | Meaning |
+| --- | --- |
+| **Feasible** | Can participants/data, measurement, time and resources support an answer? |
+| **Interesting** | Would the answer matter to an intended audience? |
+| **Novel** | Does it fill a meaningful gap, including valuable replication/generalization? |
+| **Ethical** | Can the question be investigated with acceptable risks and safeguards? |
+| **Relevant** | Could the findings inform science, clinical work or public health? |
+
+**FINER is a qualitative guide, not a validated score.** If follow-up falls were never collected, a dataset with baseline gait speed alone cannot answer a **12-month fall-risk** question. Options include collecting follow-up, using suitable existing data, or revising the research question to match what the data support.
+
+### 5. Three protocol-level pitfalls
+1. *Is exercise associated with depression?* — intensity, frequency, duration or a validated activity score must be selected and justified.
+2. *Does obesity predict cardiovascular disease?* — specify whether outcome is prevalent disease, incident disease over a defined horizon, or mortality; those require different data and interpretation.
+3. *Does air pollution cause asthma?* — causal wording requires a defensible intervention/exposure contrast, temporality, handling of confounding/selection and credible identification assumptions; statistical significance alone does not address the causal question.
+
+### Self-check application
+*Is social media use associated with anxiety among university students?* Define social media construct and measure, anxiety symptoms vs diagnosis, temporal structure, target population/recruitment, and whether the goal is association, prediction or an intervention effect.
+
+### Scope boundaries / next
+This block addresses **question specification and feasibility**. Detailed population sampling is in Chapter 02; measurement validity in Chapter 03; the connection from research questions to **estimands/evidence/design** will be developed in **1.1D**.
+
+### Learner review
+**Teaching delivered, pending understanding confirmation.** Do not automatically advance to 1.1D.
 
 ## Planned remaining blocks
-- [x] **1.1B** Four common aims: descriptive / associational / causal / predictive — **formally taught; pending learner review**
-- [ ] **1.1C** Framing questions for feasibility and clarity, including PICO/PECO when relevant
+- [x] **1.1B** Four common aims: descriptive / associational / causal / predictive — **delivered; depth critique requires revision before lesson completion**
+- [x] **1.1C** Framing questions for feasibility and clarity, including PICO/PECO when relevant — **taught; learner review pending**
 - [ ] **1.1D** Translating question into needed evidence, quantity of interest and design choice (conceptual overview)
 
 ## Completion checklist
 - [x] 1.1A formally taught (learner review pending)
 - [x] Learner confirmation and questions resolved for 1.1A
-- [x] 1.1B formally taught (learner review pending)
-- [ ] 1.1C–D delivered/reviewed
+- [x] 1.1B delivered (needs methodological depth revision)
+- [ ] 1.1B enriched and learner-reviewed
+- [x] 1.1C delivered (learner review pending)
+- [ ] 1.1C reviewed by learner
+- [ ] 1.1D delivered/reviewed
 - [ ] Full lesson checked for logical completeness, terminology, assumptions, exceptions and general applicability
 - [ ] Learner confirms completed
 
