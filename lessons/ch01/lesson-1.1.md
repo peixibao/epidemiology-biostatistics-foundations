@@ -1,7 +1,7 @@
 # Lesson 1.1 — Understanding Research Questions
 
 **Chapter:** 01 · Research Questions & Study Designs  
-**Status:** **1.1A confirmed; 1.1B delivered but requires substantive revision; 1.1C taught, pending learner review.** Full Lesson 1.1 is in progress.  
+**Status:** **1.1A learner-confirmed; 1.1B depth revision pending; 1.1C delivered and learner chose to continue; 1.1D taught, pending review.** Full Lesson 1.1 is still in progress.  
 **Publication status:** Working educational notes, not yet audited and approved as a completed lesson.
 
 **Progress update (2026-10-28):** The learner explicitly confirmed understanding of formal 1.1A and asked to move on. The instructor then formally taught 1.1B. Earlier preview status is superseded; the original history remains in Git commits. 1.1B awaits learner discussion/confirmation.
@@ -162,12 +162,79 @@ The 0.8-m/s cutoff is an illustrative, prespecified threshold that must be justi
 This block addresses **question specification and feasibility**. Detailed population sampling is in Chapter 02; measurement validity in Chapter 03; the connection from research questions to **estimands/evidence/design** will be developed in **1.1D**.
 
 ### Learner review
-**Teaching delivered, pending understanding confirmation.** Do not automatically advance to 1.1D.
+**Learner elected to continue to 1.1D on 2026-10-30 without separately confirming 1.1C mastery.** Do not infer mastery from progression.
+
+## Block 1.1D — From Research Questions to Estimands, Evidence, and Study Design
+**Status:** **Formally taught 2026-10-30 — learner review pending.**
+
+### Learning objective
+Define the target quantity that answers a question, distinguish **estimand**, **estimator** and **estimate**, and link that target to needed data and feasible study-design choices. The purpose is a conceptual bridge; technical assumptions and inference are developed in later chapters.
+
+### 1. Why a research question alone is insufficient
+Consider the earlier question: *Among community-dwelling adults aged 65 years or older, is slow gait speed associated with experiencing at least one fall during the following 12 months?*
+
+Its answer depends on the quantity selected: an **absolute 12-month risk difference**, a **risk ratio**, another association measure, or a different outcome summary. Those describe different aspects of the data.
+
+An **estimand（目标估计量）** is the *precisely defined population-level quantity* the study aims to estimate. Its necessary attributes vary by purpose and typically include **target population**, **outcome and its measurement**, **exposure or intervention conditions and comparison when relevant**, **time horizon**, and **population summary or contrast**. In interventional studies, handling post-assignment events (such as discontinuation) may also matter.
+
+### 2. Three technical terms
+| Term | Precise meaning | Illustration |
+| --- | --- | --- |
+| **Estimand** | Population-level target parameter | Difference in 12-month fall risks between slow and faster walking groups in a defined population |
+| **Estimator** | Statistical rule applied to sample observations | Difference of the two sample risk proportions |
+| **Estimate** | Observed numerical output of the estimator | 0.12 = 12 percentage points |
+
+**Hypothetical teaching data with full 12-month ascertainment:**
+
+| Baseline gait speed | Number of participants | Participants with ≥1 fall in 12 months | Estimated risk |
+| --- | ---: | ---: | ---: |
+| Slow, <0.8 m/s | 100 | 30 | 30% |
+| Faster, ≥0.8 m/s | 100 | 18 | 18% |
+
+Thus **estimated RD = 0.30 − 0.18 = 0.12 (12 percentage points)**; **estimated RR = 0.30/0.18 ≈ 1.67**. These are **unadjusted, descriptive contrasts between observed groups**, and do not establish effects of changing gait speed. The population estimand remains unknown; observed estimates are subject to uncertainty and bias. The cut point is illustrative and needs justification.
+
+### 3. How the aim changes the target and the evidence
+| Aim | Example target quantity | Data/evidence implication |
+| --- | --- | --- |
+| Descriptive | Proportion of adults ≥65 with ≥1 fall within 12 months | Defined target population; representative/appropriate sampling and valid ascertainment |
+| Associational | 12-month fall-risk difference between defined gait-speed groups | Baseline speed and later falls for both groups; confounding/selection consideration |
+| Causal | Difference in fall risk under assignment to a specified **balance-training program** vs usual care | Clear intervention strategies and causal design/identification assumptions |
+| Predictive | Individual conditional 12-month fall probability given age, gait speed, fall history, etc. | Pre-outcome predictor measurements, longitudinal outcomes, out-of-sample validation |
+
+**Key causal subtlety:** The observational slow-versus-fast gait comparison is **not the same target** as the effect of assigning a balance-training program. Defining an actionable intervention changes the question. If \(Y^{1}\) denotes a binary fall outcome under assignment to the program and \(Y^{0}\) under usual-care assignment, a causal risk-difference target is \(E[Y^{1}]-E[Y^{0}]\). Assignment effects and effects of adhering to treatment may differ when participants do not follow the assigned program. These potential outcomes are conceptual; identifying their contrast from observed data requires assumptions.
+
+### 4. The dataset must contain the needed evidence
+Suppose a dataset holds only `participant_id, age, sex, gait_speed, previous_falls` measured at a single visit. It **cannot** identify whether a participant fell *during the subsequent 12 months*. It can support a different question about gait speed and past fall history, with a different temporal interpretation and estimand.
+
+Future fall risk requires follow-up; losses to follow-up, death as a competing event, and variation in observed time may affect whether 12-month risks are identified. Incidence rates require relevant event counting and person-time (rather than only a simple yes/no 12-month indicator).
+
+### 5. How the research target guides design
+1. **Research question:** What scientific knowledge do we seek?
+2. **Estimand:** Exactly which population quantity or contrast would answer it?
+3. **Evidence requirements:** Which participants, variables, assessment times, and observation mechanisms are needed?
+4. **Study design and analysis:** Which designs make those data and assumptions plausible, and which estimators match the target?
+
+- A **prospective cohort** can measure baseline gait speed and subsequent falls for an associational question.
+- A **randomized trial** could examine assignment to balance training vs usual care for a specified causal strategy; observational causal studies remain possible with defensible assumptions.
+- A **prediction study** needs predictor measurements at the prediction time, subsequent outcomes, and suitable internal/external evaluation.
+
+Choice of statistical method follows identification of the target; a significant coefficient without a clear estimand does not retroactively establish a research objective.
+
+### 6. Practical pre-analysis protocol sentence
+*In [target population], we aim to estimate [specified population quantity] comparing or describing [defined conditions], using [defined outcome] over [specified period], based on evidence collected through [study design].*
+
+This is a planning check, not a universal sentence template. The choice between risk and rate, crude and adjusted associations, and assignment vs adherence effects alters the question/target and may alter the necessary evidence.
+
+### Scope and limitations
+This is an **introductory conceptual treatment**. Detailed measures and estimation (Chs 4–7), sampling/inference (Chs 2 and 5), experimental design (Lesson 1.2), and causal assumptions (Ch 8) are intentionally deferred. The existing 1.1B depth complaint remains unresolved and must be addressed before marking Lesson 1.1 complete.
+
+### Learner review
+**Taught — awaiting learner questions/confirmation.** The four-block delivery sequence is finished, but **Lesson 1.1 is not audited, reviewed, or marked Completed**.
 
 ## Planned remaining blocks
 - [x] **1.1B** Four common aims: descriptive / associational / causal / predictive — **delivered; depth critique requires revision before lesson completion**
 - [x] **1.1C** Framing questions for feasibility and clarity, including PICO/PECO when relevant — **taught; learner review pending**
-- [ ] **1.1D** Translating question into needed evidence, quantity of interest and design choice (conceptual overview)
+- [x] **1.1D** Translating question into estimand, evidence needs and design choice — **taught; learner review pending**
 
 ## Completion checklist
 - [x] 1.1A formally taught (learner review pending)
@@ -175,8 +242,9 @@ This block addresses **question specification and feasibility**. Detailed popula
 - [x] 1.1B delivered (needs methodological depth revision)
 - [ ] 1.1B enriched and learner-reviewed
 - [x] 1.1C delivered (learner review pending)
-- [ ] 1.1C reviewed by learner
-- [ ] 1.1D delivered/reviewed
+- [ ] 1.1C explicitly reviewed by learner (learner elected to continue)
+- [x] 1.1D formally delivered (learner review pending)
+- [ ] 1.1D reviewed by learner
 - [ ] Full lesson checked for logical completeness, terminology, assumptions, exceptions and general applicability
 - [ ] Learner confirms completed
 
